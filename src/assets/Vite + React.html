@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://localhost:5173/PokeDex -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="module">
+import RefreshRuntime from "/@react-refresh"
+RefreshRuntime.injectIntoGlobalHook(window)
+window.$RefreshReg$ = () => {}
+window.$RefreshSig$ = () => (type) => type
+window.__vite_plugin_react_preamble_installed__ = true
+</script>
+
+    <script type="module" src="./Vite + React_files/client"></script>
+
+    
+    <link rel="icon" type="image/svg+xml" href="http://localhost:5173/vite.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite + React</title>
+  <style type="text/css" data-vite-dev-id="/home/tococo/Desktop/my-proyect/pokedex/src/index.css">:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+</style><style type="text/css" data-vite-dev-id="/home/tococo/Desktop/my-proyect/pokedex/src/App.css">#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+</style><style type="text/css" data-vite-dev-id="/home/tococo/Desktop/my-proyect/pokedex/src/components/PokeDex-test/PokeDex-test.module.css">._pokeList_f7e4v_1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    gap: 30px;
+    justify-content: center;
+}
+._pokeContainer_f7e4v_8 {
+    border: 5px solid #464545;
+    border-radius: 10px;
+    padding: 16px;
+    width: 300px;
+    background-color: #d92c2c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px
+    /* other styles */
+  }
+
+._descriptionBox_f7e4v_21{
+    background-color: white;   
+    height: 100%;
+    width: 100%;
+}
+
+._pokeSprite_f7e4v_27{
+    background-color: white;   
+}
+
+._pokeHeader_f7e4v_31{
+    background-color: white;  
+    display: flex;
+    justify-content: space-around;
+}
+
+
+._pagination_f7e4v_38 {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  ._pagination_f7e4v_38 button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  ._pagination_f7e4v_38 button[disabled] {
+    cursor: not-allowed;
+    background-color: #ddd;
+  }</style><style type="text/css" data-vite-dev-id="/home/tococo/Desktop/my-proyect/pokedex/src/components/PokeCard/PokeCard.module.css">._pokeList_1a2b5_1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    gap: 30px;
+    justify-content: center;
+}
+._pokeContainer_1a2b5_8 {
+    border: 5px solid #464545;
+    border-radius: 10px;
+    padding: 16px;
+    width: 300px;
+    background-color: #d92c2c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px
+    /* other styles */
+  }
+
+._descriptionBox_1a2b5_21{
+    background-color: white;   
+    height: 100%;
+    width: 100%;
+}
+
+._pokeSprite_1a2b5_27{
+    background-color: white;   
+}
+
+._pokeHeader_1a2b5_31{
+    background-color: white;  
+    display: flex;
+    justify-content: space-around;
+}
+
+._star_1a2b5_37{
+    font-size: 24px;
+  color: gold;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  position: relative;
+}
+
+._star_1a2b5_37::before{
+  content: '☆'; 
+  font-size: 24px;
+  color: gold;
+
+}
+
+._star_1a2b5_37._filler_1a2b5_54::before{
+    content: '⭐'; 
+
+
+}
+
+
+</style><style type="text/css" data-vite-dev-id="/home/tococo/Desktop/my-proyect/pokedex/src/components/HomePage/HomePage.module.css">._HomePage_10dx7_1 {}</style><style type="text/css" data-vite-dev-id="/home/tococo/Desktop/my-proyect/pokedex/src/components/Details/Details.module.css">._Details_r9e3f_1 {}</style><style type="text/css" data-vite-dev-id="/home/tococo/Desktop/my-proyect/pokedex/src/components/Header/Header.module.css">._Header_fd8aa_1{}
+
+</style><style type="text/css" data-vite-dev-id="/home/tococo/Desktop/my-proyect/pokedex/src/components/StartScreen/StartScreen.module.css">._StartScreen_15h64_1 {}</style><style type="text/css" data-vite-dev-id="/home/tococo/Desktop/my-proyect/pokedex/src/components/FooterLine/FooterLine.module.css">._FooterLine_fgao8_1 {}</style></head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./Vite + React_files/main.jsx"></script>
+  
+
+</body></html>

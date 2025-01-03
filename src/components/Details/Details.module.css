@@ -1,0 +1,140 @@
+.details {
+border: 10px solid #9a9a9a;
+border-radius: 30px;
+    
+    
+}
+
+.normal, .fire, .water, .electric, .grass, .ice, .fighting, .poison, .ground, .flying, .psychic, .bug, .rock, .ghost, .dragon, .dark, .steel, .fairy{
+padding: 5px 20px;
+width: 80px;
+border-radius: 20px;
+font-weight: bolder;
+font-size: 18px;
+
+}
+.normal{
+    background-color: #A8A77A;
+    color:#3B3B3B ;
+}
+.water{
+    color: #2C2C2C;
+    background-color: #6390F0;
+}
+.electric{
+    color: #5B5B5B;
+    background-color:#F7D02C ;
+}
+.grass{
+    color: #464646;
+    background-color: #7AC74C;
+}
+.ice{
+    color: #575757;
+    background-color:#96D9D6 ;
+}
+.poison{  
+    color: #E7E7E7;
+    background-color:#A33EA1 ;
+}
+
+.ground{
+    color:#505050 ;
+    background-color: #E2BF65;
+}
+
+.fire{
+    color:#353535 ;
+    background-color:#EE8130 ;
+}
+.fighting{
+    color:#E6E6E6;
+   background-color: #C22E28;
+}
+.flying{
+    color: #363636;
+    background-color: #A98FF3;
+}
+.psychic{
+    color: #2B2B2B;
+    background-color: #F95587;
+}
+.bug{
+    color:#434343 ;
+    background-color:#A6B91A ;
+}
+.rock{
+    color:#383838 ;
+    background-color: #B6A136;
+}
+.ghost{
+    color: #E1E1E1;
+    background-color: #735797;
+}
+.dragon{
+    color: #E2E2E2;
+    background-color:#6F35FC ;
+}
+.dark{
+    color: #D4D4D4;
+    background-color: #705746;
+}
+.steel{
+    color: #4A4A4A;
+    background-color:#B7B7CE ;
+}
+.fairy{
+    color: #353535;
+    background-color:#D685AD ;
+}
+.typezone{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailsbox{
+    background-color: #D9DFC6;
+    border-radius: 20px;
+}
+.information{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.infobox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.stats{
+    background-color:#EFF3EA ;
+    border-radius: 20px;
+}
+
+.description{
+    background-color: #EFF3EA;
+    padding: 40px;
+    border-radius: 20px;
+
+    border: 20px solid #CAE9F5;
+}
+.namePlate{
+    background-color: #FFF2C2;
+    border-radius: 20px;
+    padding: 0px 25px;
+}
+
+
+
+.sprites{
+    background-color: #FFFDF0;
+    padding: 30px;
+    border: 5px solid #FFF2C2;
+    border-radius: 20px;
+}
